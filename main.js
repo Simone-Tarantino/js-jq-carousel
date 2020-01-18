@@ -31,6 +31,7 @@ function goNext() {
   nextCircle.addClass('active');
 }
 
+// funzione back
 function goBack() {
   var activeImg = $('img.active');
   var backImg = activeImg.prev();
